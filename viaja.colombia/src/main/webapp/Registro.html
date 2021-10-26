@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaja por Colombia | Hacer reserva</title>
+    <link href="Estilos/Estilos.css" rel="stylesheet">
+</head>
+<body>
+    <button><a href="index.html">Inicio</a></button>
+    <button><a href="PlanesViaje.html">Planes de viaje</a></button>
+    <button class="thispag"><a href="Registro.html">Hacer Reserva</a></button>
+    <button><a href="Reservas.html">Consultar Reservas</a></button>
+    <hr>
+    <h1>Realizar Reserva</h1>
+    <section>
+        <form class="form">
+            <label for="identificacion">Numero de indentificacion: </label>
+            <input class="txt" type="text" name="identificacion" id="identificacion" >
+            <label for="nombres">Nombres: </label>
+            <input class="txt" type="text" name="nombres" id="nombres" >
+            <label for="apellidos">Apellidos: </label>
+            <input class="txt" type="text" name="apellidos" id="apellidos" >
+            <label for="email">Email: </label>
+            <input class="txt" type="text" name="email" id="email" >
+            <label for="telefono">Telefono: </label>
+            <input class="txt" type="text" name="telefono" id="telefono">
+            <Label for="lugar">Lugar de destino: </Label>
+            <select class="txt" id="lugar" name="lugar">
+                <option value="Elegir" selected="Elegir">Elegir...</option>
+                <option value="San Andres">San Andres</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Cartagena y Santa Marta">Cartagena y Santa Marta</option>
+                <option value="Parque del cafe">Parque del café</option>
+            </select>
+            <label for="fechaSalida">Fecha de salida: </label>
+            <input class="txt" type="text" name="fechaSalida" id="fechaSalida" placeholder="AAAA-MM-DD">
+            <label for="fechaLlegada">Fecha de llegada: </label>
+            <input class="txt" type="text" name="fechaLlegada" id="fechaLlegada" placeholder="AAAA-MM-DD">
+            <label for="personas">Numero de personas: </label>
+            <input class="txt" type="number" id="personas" name="personas"/>
+            <input type="submit" value="Guardar" id="guardar_usuario">
+        </form>
+    </section>
+</body>
+</html>
